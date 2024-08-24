@@ -20,7 +20,7 @@ function juego() {
             alert("Respuesta incorrecta  \n Respuesta correcta 2- Rusia \n Obtuviste " + puntos + " puntos.");
         }
 
-        let preguntaDos = prompt("Ingrese la opcion correcta \n¿Cuál es el río más largo del mundo? \n 1-Amazonas\n 2-Nilo\n 3-Yangtsé")
+        let preguntaDos = prompt("Ingrese la opcion correcta \n¿Cuál es el río más largo del mundo? \n 1-Amazonas\n 2-Nilo\n 3-Yangtsé\n\n Para salir escribe SALIR")
         if (preguntaDos == 2) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto!" + puntos + "puntos.")
@@ -29,7 +29,7 @@ function juego() {
             puntos = 0;
             alert("Debe responder con 1, 2 o 3 \n Usted perdio el turno \n Obtuviste " + puntos + " puntos.");
         }
-        else if (preguntaUno.toUpperCase() == 'Salir') {
+        else if (preguntaDos.toUpperCase() == 'Salir') {
             alert('Gracias por jugar con nosotros obtuviste ' + puntos);
             break;
         }
@@ -38,7 +38,7 @@ function juego() {
             alert("Respuesta incorrecta  \n Respuesta correcta 2- Nilo \n Obtuviste " + puntos + " puntos.");
         }
 
-        let preguntaTres = prompt("Ingrese la opcion correcta \n¿Cuál es la capital de Australia? \n 1-Sídney\n 2-Melbourne\n 3-Canberra")
+        let preguntaTres = prompt("Ingrese la opcion correcta \n¿Cuál es la capital de Australia? \n 1-Sídney\n 2-Melbourne\n 3-Canberra\n\n Para salir escribe SALIR")
         if (preguntaTres == 3) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto! " + puntos)
@@ -47,7 +47,7 @@ function juego() {
             puntos = 0;
             alert("Debe responder con 1, 2 o 3 \n Usted perdio el turno \n Obtuviste " + puntos + " puntos.");
         }
-        else if (preguntaUno.toUpperCase() == 'Salir') {
+        else if (preguntaTres.toUpperCase() == 'Salir') {
             alert('Gracias por jugar con nosotros obtuviste ' + puntos);
             break;
         }
@@ -56,7 +56,7 @@ function juego() {
             alert("Respuesta incorrecta  \n Respuesta correcta 2- Canberra \n Obtuviste " + puntos + " puntos.");
         }
 
-        let preguntaCuatro = prompt("Ingrese la opcion correcta \n¿Cuál es el país con la mayor población del mundo? \n 1-India\n 2-Estados Unidos\n 3-China")
+        let preguntaCuatro = prompt("Ingrese la opcion correcta \n¿Cuál es el país con la mayor población del mundo? \n 1-India\n 2-Estados Unidos\n 3-China\n\n Para salir escribe SALIR")
         if (preguntaCuatro == 3) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto!" + puntos)
@@ -65,7 +65,7 @@ function juego() {
             puntos = 0;
             alert("Debe responder con 1, 2 o 3 \n Usted perdio el turno \n Obtuviste " + puntos + " puntos.");
         }
-        else if (preguntaUno.toUpperCase() == 'Salir') {
+        else if (preguntaCuatro.toUpperCase() == 'Salir') {
             alert('Gracias por jugar con nosotros obtuviste ' + puntos);
             break;
         }
@@ -74,7 +74,7 @@ function juego() {
             alert("Respuesta incorrecta  \n Respuesta correcta 3- China \n Obtuviste " + puntos + " puntos.");
         }
 
-        let preguntaCinco = prompt("Ingrese la opcion correcta \n¿Cuál es el océano más grande del mundo? \n 1-Océano Pacífico\n 2-Océano Atlántico\n 3-Océano Índico")
+        let preguntaCinco = prompt("Ingrese la opcion correcta \n¿Cuál es el océano más grande del mundo? \n 1-Océano Pacífico\n 2-Océano Atlántico\n 3-Océano Índico\n\n Para salir escribe SALIRgit")
         if (preguntaCinco == 1) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto!" + puntos)
@@ -83,7 +83,7 @@ function juego() {
             puntos = 0;
             alert("Debe responder con 1, 2 o 3 \n Usted perdio el turno \n Obtuviste " + puntos + " puntos.");
         }
-        else if (preguntaUno.toUpperCase() == 'Salir') {
+        else if (preguntaCinco.toUpperCase() == 'Salir') {
             alert('Gracias por jugar con nosotros obtuviste ' + puntos);
             break;
         }
