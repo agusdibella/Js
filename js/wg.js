@@ -2,7 +2,7 @@ let nombre = prompt('Ingrese su nombre para comenzar o ingrese SALIR para salir 
 let puntos = 0;
 function juego() {
     while (nombre.toUpperCase() !== 'SALIR') {
-        let preguntaUno = parseInt(prompt("Hola! " + nombre + "\n Ingrese la opcion correcta \n¿Cuál es el país más grande del mundo por superficie terrestre? \n 1-Canadá\n 2-Rusia\n 3-China"))
+        let preguntaUno = parseInt(prompt("Hola! " + nombre + "\n Ingrese la opcion correcta \n¿Cuál es el país más grande del mundo por superficie terrestre? \n 1-Canadá\n 2-Rusia\n 3-China\n\n\nSi quiere terminar el juego escriba SALIR"))
         if (preguntaUno == 2) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto!")
@@ -18,7 +18,7 @@ function juego() {
             break;
         }
 
-        let preguntaDos = prompt("Ingrese la opcion correcta \n¿Cuál es el río más largo del mundo? \n 1-Amazonas\n 2-Nilo\n 3-Yangtsé")
+        let preguntaDos = prompt("Ingrese la opcion correcta \n¿Cuál es el río más largo del mundo? \n 1-Amazonas\n 2-Nilo\n 3-Yangtsé\n\n\nSi quiere terminar el juego escriba SALIR")
         if (preguntaDos == 2) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto! \nTienes " + puntos + " puntos.")
@@ -34,7 +34,7 @@ function juego() {
             break;
         }
 
-        let preguntaTres = prompt("Ingrese la opcion correcta \n¿Cuál es la capital de Australia? \n 1-Sídney\n 2-Melbourne\n 3-Canberra")
+        let preguntaTres = prompt("Ingrese la opcion correcta \n¿Cuál es la capital de Australia? \n 1-Sídney\n 2-Melbourne\n 3-Canberra\n\n\nSi quiere terminar el juego escriba SALIR")
         if (preguntaTres == 3) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto! \nTienes " + puntos + " puntos." ) 
@@ -50,7 +50,7 @@ function juego() {
             break;
         }
 
-        let preguntaCuatro = prompt("Ingrese la opcion correcta \n¿Cuál es el país con la mayor población del mundo? \n 1-India\n 2-Estados Unidos\n 3-China")
+        let preguntaCuatro = prompt("Ingrese la opcion correcta \n¿Cuál es el país con la mayor población del mundo? \n 1-India\n 2-Estados Unidos\n 3-China\n\n\nSi quiere terminar el juego escriba SALIR")
         if (preguntaCuatro == 3) {
             puntos = puntos + 1;
             alert("Felicitaciones ganaste un punto! \nTienes " + puntos + " puntos.")
